@@ -7,15 +7,22 @@ export const styles = StyleSheet.create({
     backgroundColor: THEME.COLORS.SHAPE,
     borderRadius: 8,
     padding: 20,
-    marginRight: 16
+    marginRight: 16,
+    alignItems: 'center',
   },
   btn: {
-    width: 140,
+    width: '100%',
     height: 36,
     borderRadius: 6,
     backgroundColor: THEME.COLORS.PRIMARY,
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center'
   },
-  btnTitle: {},
+  btnTitle: {
+    color: THEME.COLORS.TEXT,
+    fontFamily: THEME.FONT_FAMILY.SEMI_BOLD,
+    fontSize: THEME.FONT_SIZE.SM,
+    marginLeft: 8
+  },
 });
